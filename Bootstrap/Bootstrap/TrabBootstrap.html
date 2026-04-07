@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reino da Onça-Pintada</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        .hero-section { background: #ffd700; padding: 60px 0; }
+        .carousel-item img { height: 500px; object-fit: cover; }
+
+        .btn-outline-warning:hover {
+        color: #fff !important; /*para o texto a ficar branco */
+    }
+
+    </style>
+</head>
+<body>
+
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Onça">A Onça-Pintada</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Vivem">Onde elas vivem?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Habitos">Pincipais habitos!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Duvidas">Dividas frequentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Preservação">Alguns tipos de preservação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#Causa">Apoie a causa</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+    <div id="carouselOncas" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselOncas" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselOncas" data-bs-slide-to="1"></button>  
+            <button type="button" data-bs-target="#carouselOncas" data-bs-slide-to="2"></button>   
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="onca_deitada.jfif" class="d-block w-100" alt="Onça no Pantanal">
+                <div class="carousel-caption">
+                    <h5>O Maior Felino das Américas</h5>
+                    <p>Conheça a força e a beleza da Panthera onca.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="onca_agua.jfif" alt="Onça na água">
+              <div class="carousel-caption">
+                    <h5>Exímia Nadadora</h5>
+                    <p>Diferente de outros gatos, a onça adora água.</p>
+                </div>
+            </div>
+             <div class="carousel-item">
+                <img src="onca_mae.jfif" class="d-block w-100" alt="Onça na água">
+                <div class="carousel-caption">
+                    <h5>Ótima Mãe</h5>
+                    <p>Onças são muito cuidadosas e dedicadas com seus filhotes.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselOncas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselOncas" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+       
+    </div>
+
+
+
+
+
+    <div class="container my-5" id="sobre">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 id="Onça" class="display-4 fw-bold text-success">A Onça-Pintada</h2>
+                <p class="lead text-muted">A onça-pintada é um símbolo da biodiversidade brasileira.</p>
+                <p class="fw-medium">Possui a mordida mais forte entre os felino, proporcionalmente oa seu tamanho. <br><br>
+                  Capaz de matar animais com 4 vezes o proprio peso, como por exemplo caça jacarés açus diretamente do rio. <br><br>
+                  Diferente de outros felinos que matam por asfixia, onças pintadas mata quebrando o crânio ou sua coluna vertebral de suas presas
+                </p>
+                <p class="text-uppercase fw-light border-start border-4 ps-3">Infelizmente estão ameaçadas de extinção</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="display-1 text-warning">
+                    <i class="bi bi-sun-fill"></i>
+                    <i class="bi bi-tree-fill"></i>
+                    <i class="bi bi-water"></i>
+                    <i class="bi-moon-stars"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <hr class="my-5">
+        <h3 id="Vivem" class="mb-4 text-center">Onde Elas Vivem?</h3>
+        <div class="row g-4">
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary"><i class="bi bi-map"></i> América do Sul</h5>
+                        <p class="card-text">Há raras avistações desde o México ate o norte da Argentina, com maior concentração em áreas alagadas e florestais</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm border-success">
+                    <div class="card-body">
+                        <h5 class="card-title text-success"><i class="bi bi-tree"></i> Amazônia</h5>
+                        <p class="card-text">Há uma vasta diversidade, mas sendo mais difíceis de se observar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm border-warning">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning"><i class="bi bi-brightness-high"></i> Pantanal </h5>
+                        <p class="card-text">Onde se encontra a maior densidade populacional de onças do mundo, com altas chances de avistamento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+<div class="py-5"></div>
+<h3 id="Habitos" class="mb-4 text-center">Principais Habitos!</h3>
+
+<div class="row g-4">
+    <div class="col-12 col-md-4">
+        <div class="card h-100 shadow border-0 overflow-hidden">
+            <img src="onca_capivara.jfif" class="card-img-top" alt="Onça caçando capivara" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+                <span class="badge bg-danger mb-2 ">Alimentação</span>
+                <h5 class="card-title fw-bold text-danger"><i class="bi bi-egg-fried text-danger"></i>Caça</h5>
+                <p class="card-text text-secondary">Onças são oportunistas e exclusivamente carnívoras, variando em mais de 85 espécies como jacáres, capivaras antas, etc... <br> <br>
+                Elas caçam cravando a mandibula no crânio ou na coluna vertebral</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+        <div class="card h-100 shadow border-0 overflow-hidden">
+            <img src="onca_anoite.jfif" class="card-img-top" alt="Onça pintada relaxando" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+                <span class="badge bg-success mb-2">Hábitos</span>
+                <h5 class="card-title fw-bold text-success"><i class="bi bi-tree-fill"></i> Atividades Diárias</h5>
+                <p class="card-text text-secondary">Onças tem habitos gerais, dependendo da localidade, por exemplo no pantanal podem ser avistadas tanto de dia quanto a noite <br><br>
+                Elas podem percorrer quilômetros para achar parceiros ou encontrar territórios próprios.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+        <div class="card h-100 shadow border-0 overflow-hidden">
+            <div style="height: 200px; width: 100%; position: relative; background-color: #000;">
+                <iframe 
+                    src="https://www.youtube.com/embed/2Qf2rSnDZvc?start=23" 
+                    title="YouTube video player" 
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen
+                    alt="Video de esturro das onças pintadas">
+                </iframe>
+                </div>
+
+            <div class="card-body">
+                <span class="badge bg-warning mb-2 text-dark">Comunicação</span>
+                <h5 class="card-title fw-bold text-warning">
+                    <i class="bi bi-volume-up text-warning"></i> Esturro?
+                </h5>
+                <p class="card-text text-secondary">
+                    As onças possuem um som característico único, o "esturro", usado na demarcação de território e na época de acasalamento para "chamar" fêmeas.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3 id="Duvidas" class="mb-3">Dúvidas Frequentes</h3>
+                <div class="accordion" id="faqOnca">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                Qual o peso de uma onça-pintada?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqOnca">
+                            <div class="accordion-body">
+                                Elas podem pesar entre 56 kg a 150 kg, dependendo da região e disponibilidade de alimento.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                Qual a diferença entre Onça e Leopardo?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqOnca">
+                            <div class="accordion-body">
+                                As onças são maiores e mais robustas e suas manchas (rosetas) possuem pequenos pontos pretos no interior, diferente dos leopardos, que são menores e as manchas não tem forma de rosetas.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                Como é a gestação e quantos filhotes podem ter?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqOnca">
+                            <div class="accordion-body">
+                               A gestação dura cerca de 3 meses. Os filhotes nascem cegos, abrindo os olhos após cerca de 2 semanas, e pesam entre 700g e 900g, podendo nascer de 1 a 4 filhotes por ninhada.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                Qual a expectativa de vida de uma onça?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqOnca">
+                            <div class="accordion-body">
+                                Na natureza, vivem cerca de 12 a 15 anos. Em cativeiro, podem chegar aos 20 anos ou mais.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="py-5"></div>
+        <h3 id="Preservação" class="mb-4 text-center">Alguns tipos de Preservação</h3>
+                    <div class="container mt-4">
+            <div class="row g-4"> <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm"> <div class="card-body">
+                            <h5 class="card-title">Zoologicos</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Distrubuido em diversos lugares</h6>
+                            <p class="card-text">Papel cruxial na recuperação da espécie, reabilitando animais orfãos ou feridos com educação ambiental. Tambem praticam reprodução ex-situ para preserva-las</p>
+                            <a href="https://www.zoo.df.gov.br/onca-pintada-panthera-onca" target="_blank" class="card-link">Mais sobre Zoo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Instituto Onça-pintda</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Goias, Brasil</h6>
+                            <p class="card-text">O apoio se baseia em duas frentes: pesquisa de campo (in situ) com monitoramento por GPS, educação ambiental e mitigação de conflitos, além do manejo ex situ no maior criadouro conservacionista do mundo</p>
+                            <a href="https://www.institutooncapintada.org.br/" target="_blank" class="card-link">Mais sobre o IOP</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto Yaguareté e onças do iguaçu</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary"> Tríplice fronteira entre Brasil, Argentina e Paraguai</h6>
+                            <p class="card-text"> colaboração conjunta, que une ciência e pesquisa de campo, resultou em um aumento significativo do número de onças-pintadas na região, quase dobrando a população em uma década.</p>
+                            <a href="https://projetooncasdoiguacu.org/"  target="_blank"  class="card-link">Mais sobre o Proyecto Yaguareté e onças do iguaçu</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row mt-5 bg-light p-4 rounded shadow-sm" id="contato">
+            <div class="col-md-8 mx-auto">
+                <h3 id="Causa" class="text-center">Apoie a Causa</h3>
+                <form class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome Completo</label>
+                        <input type="text" class="form-control" id="nome" required>
+                        <div class="invalid-feedback">Por favor, insira seu nome.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com" required>
+                        <div class="invalid-feedback">E-mail inválido.</div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="check" required>
+                        <label class="form-check-label" for="check">Desejo receber notícias sobre preservação.</label>
+                    </div>
+                    <button type="submit" class="btn btn-dark w-100">Enviar Cadastro</button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="text-center mt-4">
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#modalAviso">
+                <i class="bi bi-exclamation-triangle"></i> Aviso Importante
+            </button>
+        </div>
+
+
+
+
+
+        <div class="modal fade" id="modalAviso" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Preservação Ambiental</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        A caça da onça-pintada é crime ambiental no Brasil. Ajude a denunciar atividades ilegais.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>© 2026 Preservação da Fauna - Feito com Bootstrap</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <script>
+        (() => {
+            'use strict'
+            const forms = document.querySelectorAll('.needs-validation')
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+</body>
+</html>
